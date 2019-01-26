@@ -1,0 +1,11 @@
+= DE2-115_VHDL_PS2-CLCD =
+This project uses a PS2 keyboard as an input to function on a character LCD (16*2) via a DE2-115 FPGA board.
+
+{empty} +
+
+== Project supports the following functionality ==
+* Printing "a" to "z" characters.
+* Escape (Clears the whole screen - So does the SW(17))
+* Arrow Keys (to move the cursor)
+* BackSpace
+* Enter
