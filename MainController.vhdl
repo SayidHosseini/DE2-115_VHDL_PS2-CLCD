@@ -22,7 +22,7 @@ entity MainController is
 			LEDR : out  STD_LOGIC_VECTOR (17 downto 0);             --// 18 red LEDs
 			
 			PS2_DAT : in  STD_LOGIC;
-		   PS2_CLK : in  STD_LOGIC;
+		  	PS2_CLK : in  STD_LOGIC;
 
 			LCD_ON : OUT STD_LOGIC;	--// LCD power ON/OFF
 			LCD_BLON : OUT STD_LOGIC;	--// LCD back light ON/OFF
@@ -152,7 +152,7 @@ begin
 			when S_LCD_ISSUE_INSTRUCTION_delay =>
 				state <= S_LCD_ISSUE_INSTRUCTION;
 			when  S_LCD_ISSUE_INSTRUCTION =>	
-					if(LCD_code >= x"61" AND LCD_code <= x"7A") then -- a to z characters
+					if((LCD_code >= x"61" AND LCD_code <= x"7A") OR PS2_code = x"29") then -- a to z characters and SPACE
 						if(LCD_line = '0') then
 							line1(CURSOR DOWNTO (CURSOR - 7)) <= LCD_code;
 							
