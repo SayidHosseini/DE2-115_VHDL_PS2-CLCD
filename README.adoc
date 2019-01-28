@@ -2,7 +2,9 @@
 
 This project uses a PS2 keyboard as an input to function on a character LCD (16*2) via a DE2-115 FPGA board.
 
+<p align="center">
 For a preview click on the https://drive.google.com/open?id=1BLSSJ9UGim1wqu26Y9sisqGEFwKzrNyV[link].
+</p>
 {empty} +
 
 == Project supports the following functionality ==
