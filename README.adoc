@@ -4,10 +4,9 @@ This project uses a PS2 keyboard as an input to function on a character LCD (16*
 
 ++++
 <p align="center">
-For a preview click on the
+For a preview click on the <a href="https://drive.google.com/open?id=1BLSSJ9UGim1wqu26Y9sisqGEFwKzrNyV">link</a>
 </p>
 ++++
-https://drive.google.com/open?id=1BLSSJ9UGim1wqu26Y9sisqGEFwKzrNyV[link].
  
 {empty} +
 
